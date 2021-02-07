@@ -52,7 +52,9 @@ window.onload= ()=>{
         });
      } 
 }
-
+ function onloads(){
+        document.getElementById('loader').style.display = 'none';
+}
 $(function () {
    var goto=$(window);
    goto.scroll(function () { 
